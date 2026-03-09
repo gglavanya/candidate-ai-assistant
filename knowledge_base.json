@@ -1,0 +1,383 @@
+{
+  "candidate": {
+    "name": "Gurudevi Lavanya Gopisetty",
+    "title": "MS Computer Science Graduate | ML Engineer | AI & Data Science Professional",
+    "summary": "Recent MS Computer Science graduate from California State University, Dominguez Hills (GPA 3.9, Dec 2025) with 2+ years of professional experience at Cognizant. Expertise spans Machine Learning, Data Science, Computer Vision, Generative AI, Data Analytics, and DevOps. Known for delivering strong quantitative outcomes — 90% pipeline throughput improvements, 88%+ model accuracies, and real-time deployed systems.",
+    "dob": "June 10, 1999",
+    "location": "California, USA"
+  },
+
+  "education": [
+    {
+      "id": "edu_001",
+      "degree": "Master of Science in Computer Science",
+      "institution": "California State University, Dominguez Hills",
+      "location": "California, USA",
+      "duration": "Aug 2023 – Dec 2025",
+      "gpa": "3.9 / 4.0",
+      "specializations": [
+        "Machine Learning",
+        "Deep Learning",
+        "Artificial Intelligence",
+        "Big Data Analytics",
+        "Operating Systems",
+        "Software Engineering",
+        "Database Systems",
+        "Natural Language Processing",
+        "Data Structures",
+        "Object Oriented Analysis & Design",
+        "System Software Engineering",
+        "Design and Analysis of Algorithms",
+        "SDLC and Analytics"
+      ],
+      "role": "Graduate Assistant — contributed to faculty research, course development, and student mentorship"
+    },
+    {
+      "id": "edu_002",
+      "degree": "Bachelor of Engineering / B.Tech in Computer Science & Engineering",
+      "institution": "Indian University",
+      "location": "India",
+      "duration": "Graduated 2021"
+    }
+  ],
+
+  "experience": [
+    {
+      "id": "exp_001",
+      "title": "Graduate Assistant — Data Science, AI & Cloud Research",
+      "company": "California State University, Dominguez Hills",
+      "location": "California, USA",
+      "duration": "Aug 2024 – Dec 2025",
+      "type": "Academic / Research",
+      "responsibilities": [
+        "Assisted professors with EDA, statistical hypothesis testing, and visualization using Python for research publications",
+        "Collaborated on LLM research exploring how GPT-4 reasons about low-level language constructs (C, memory management, pointers)",
+        "Designed and evaluated student ML projects: customer churn predictor (86%), sentiment analysis pipeline (BERT), LSTM time-series forecasting",
+        "Built benchmark comparison framework in PyTorch evaluating YOLOv5 vs YOLOv8",
+        "Set up Label Studio and Roboflow annotation pipelines for computer vision research",
+        "Built GitHub Actions CI/CD workflows for automated lab deployment",
+        "Maintained Docker/Kubernetes lab environments for 30+ students",
+        "Mentored 30+ undergraduates in ML, Data Structures, Python, and DevOps — improving project scores by 15–20%"
+      ],
+      "skills_demonstrated": ["Python", "EDA", "LLM Research", "GPT-4", "PyTorch", "YOLOv5", "YOLOv8", "Label Studio", "Roboflow", "GitHub Actions", "Docker", "Kubernetes", "Mentoring", "BERT", "LSTM"]
+    },
+    {
+      "id": "exp_002",
+      "title": "Data Scientist",
+      "company": "Cognizant",
+      "location": "Chennai, India",
+      "duration": "Feb 2022 – Jul 2023",
+      "type": "Full-time Industry",
+      "responsibilities": [
+        "Built supervised ML models (Random Forest, XGBoost, Logistic Regression) achieving 88% accuracy in pipeline failure prediction, reducing downtime by 35%",
+        "Developed TF-IDF and BERT-based text classification to auto-categorize 10K+ monthly support tickets, cutting manual triaging time by 50%",
+        "Engineered 100+ features from structured and unstructured data; EDA improved model F1-score by 18%",
+        "Designed MLflow experiment tracking and Tableau dashboards to monitor model drift and KPIs in near real-time",
+        "Conducted A/B tests and cross-validation frameworks before production rollout"
+      ],
+      "skills_demonstrated": ["Random Forest", "XGBoost", "Logistic Regression", "TF-IDF", "BERT", "Feature Engineering", "EDA", "MLflow", "Tableau", "A/B Testing", "Cross-Validation", "Python", "SQL"]
+    },
+    {
+      "id": "exp_003",
+      "title": "Data Analyst",
+      "company": "Cognizant",
+      "location": "Chennai, India",
+      "duration": "Feb 2021 – Jan 2022",
+      "type": "Full-time Industry",
+      "responsibilities": [
+        "Architected automated ETL validation pipelines across 200+ data scenarios, boosting throughput by 90% and saving 70+ hours/month",
+        "Engineered advanced SQL validation protocols improving data accuracy by 30% for downstream modeling and reporting",
+        "Maintained end-to-end data lineage tracking ensuring audit-readiness across large-scale performance datasets",
+        "Built Power BI, Tableau, and Excel dashboards that directly informed senior stakeholder strategy"
+      ],
+      "skills_demonstrated": ["ETL", "SQL", "Data Lineage", "Data Governance", "Power BI", "Tableau", "Excel", "Python", "PostgreSQL", "Data Validation"]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "proj_001",
+      "title": "Autonomous Job Application Agent",
+      "domain": "Generative AI / Agentic Systems",
+      "technologies": ["LangGraph", "Playwright", "GPT-4o", "Python", "Docker"],
+      "description": "Fully autonomous multi-agent system that handles the entire job application workflow — scraping job postings, parsing descriptions, extracting fields, and intelligently filling out forms without human intervention.",
+      "architecture": "Three specialized agents: scraping agent (Playwright), parsing agent (GPT-4o), submission agent. State-machine workflow managed by LangGraph.",
+      "key_outcome": "85% form-fill accuracy across diverse job portals",
+      "challenges_solved": ["Handling diverse form structures", "Multi-step flows", "Dynamic validation rules", "Robust error handling and retry logic"],
+      "demo": "Available on request"
+    },
+    {
+      "id": "proj_002",
+      "title": "Candidate AI Assistant (RAG Pipeline)",
+      "domain": "Generative AI / RAG",
+      "technologies": ["Pinecone", "LangChain", "OpenAI", "Semantic Caching", "Python"],
+      "description": "Conversational RAG pipeline that answers nuanced context-specific questions about a candidate's background without hallucinating. Built on Pinecone vector DB and LangChain orchestration.",
+      "architecture": "Document chunking → OpenAI embeddings → Pinecone vector storage → semantic similarity retrieval → context assembly → LLM response generation + semantic caching layer",
+      "key_outcome": "~40% reduction in redundant API calls via semantic caching",
+      "demo": "https://youtu.be/e5vytBK0Gik"
+    },
+    {
+      "id": "proj_003",
+      "title": "Self-Driving Semantic Segmentation (U-Net)",
+      "domain": "Computer Vision / Autonomous Driving",
+      "technologies": ["U-Net", "PyTorch", "OpenCV", "Cityscapes", "Custom Augmentation"],
+      "description": "U-Net architecture trained from scratch in PyTorch on Cityscapes dataset (2,975 training, 500 validation urban driving images) for pixel-level semantic segmentation.",
+      "key_outcome": "0.336 mIoU on Cityscapes validation set",
+      "demo": "https://youtu.be/pevIFpvOg88"
+    },
+    {
+      "id": "proj_004",
+      "title": "Automatic Parking Slot Detection",
+      "domain": "Computer Vision / Object Detection",
+      "technologies": ["YOLOv8", "PyTorch", "OpenCV", "Custom Annotation Pipeline"],
+      "description": "Fine-tuned YOLOv8 on custom-built annotated dataset of parking lot images. Handles varied lighting, partial occlusion, shadows, and perspective distortion.",
+      "key_outcome": "90% vehicle occupancy detection accuracy",
+      "demo": "https://youtu.be/F3F1vJ1_MHI"
+    },
+    {
+      "id": "proj_005",
+      "title": "Real-Time Hand Gesture Recognition & Controller",
+      "domain": "Computer Vision / Human-Computer Interaction",
+      "technologies": ["YOLOv8", "MediaPipe", "OpenCV", "Python"],
+      "description": "Gesture-controlled gaming interface running in real-time on CPU. Two-stage pipeline: YOLOv8 hand detection + MediaPipe 21-keypoint landmark extraction + gesture classification.",
+      "key_outcome": "85% gesture accuracy at 30+ FPS on CPU",
+      "demo": "https://youtu.be/WYqxuqbMU-0"
+    },
+    {
+      "id": "proj_006",
+      "title": "CNN Digit Recognition & Gesture Detection",
+      "domain": "Computer Vision / Deep Learning",
+      "technologies": ["PyTorch", "CNN", "TensorFlow", "MNIST", "Custom Dataset"],
+      "description": "Custom 5-layer CNN with batch normalization, dropout, and cosine annealing LR scheduling. Trained on MNIST then extended to real-world gesture classification.",
+      "key_outcome": "96% MNIST accuracy | 85% gesture classification accuracy",
+      "demo": "https://youtu.be/3d_aqrpRc0Q"
+    },
+    {
+      "id": "proj_007",
+      "title": "Facial Recognition — Siamese Network",
+      "domain": "Computer Vision / Biometric Recognition",
+      "technologies": ["PyTorch", "Siamese Network", "Contrastive Loss", "OpenCV"],
+      "description": "One-shot facial recognition using Siamese Network with twin CNN branches trained with Contrastive Loss. Inference via cosine distance against a single reference image.",
+      "key_outcome": "75% one-shot verification accuracy"
+    },
+    {
+      "id": "proj_008",
+      "title": "Automated Essay Scoring System",
+      "domain": "NLP / Education Technology",
+      "technologies": ["BERT", "Hugging Face", "Scikit-learn", "Python"],
+      "description": "Fine-tuned BERT for automated essay scoring with bias analysis across demographic subsets. Uses Hugging Face Transformers with custom regression scoring head.",
+      "key_outcome": "82% agreement with human raters"
+    },
+    {
+      "id": "proj_009",
+      "title": "Customer Churn Prediction & Segmentation",
+      "domain": "Data Science / Predictive Analytics",
+      "technologies": ["XGBoost", "SHAP", "K-Means", "Pandas", "Seaborn"],
+      "description": "Comprehensive churn prediction and segmentation on 50K+ customer records. XGBoost with SHAP explainability + K-Means clustering for actionable retention strategy.",
+      "key_outcome": "AUC-ROC 0.91 | 4 actionable customer segments identified"
+    },
+    {
+      "id": "proj_010",
+      "title": "Sales Performance Dashboard & Forecasting",
+      "domain": "Data Analytics / Business Intelligence",
+      "technologies": ["Python", "SQL", "Tableau", "ARIMA", "Time Series Analysis"],
+      "description": "End-to-end analytics solution: SQL aggregation → ARIMA forecasting → interactive Tableau executive dashboard with drill-down on 500K+ transactions.",
+      "key_outcome": "89% ARIMA forecasting accuracy on 500K+ transactions"
+    },
+    {
+      "id": "proj_011",
+      "title": "ETL Pipeline Automation & Data Quality Framework",
+      "domain": "Data Engineering / Pipeline Automation",
+      "technologies": ["Python", "SQL", "PostgreSQL", "Pandas", "Anomaly Detection"],
+      "description": "Modular ETL framework with configurable validation: null detection, type validation, referential integrity, Z-score and IQR anomaly flagging. Pluggable architecture across 8 downstream teams.",
+      "key_outcome": "40% reduction in pipeline errors | monitoring for 8 downstream teams"
+    },
+    {
+      "id": "proj_012",
+      "title": "Kubernetes CI/CD Deployment Pipeline",
+      "domain": "DevOps / Cloud Infrastructure",
+      "technologies": ["GitHub Actions", "Docker", "Kubernetes", "Terraform", "AWS ECR"],
+      "description": "Full CI/CD pipeline: Docker build → unit/integration tests → Trivy security scan → AWS ECR push → Kubernetes rolling deployment with automated rollback in under 2 minutes.",
+      "key_outcome": "Zero-downtime deployments | automated rollback in under 2 minutes"
+    },
+    {
+      "id": "proj_013",
+      "title": "Cloud Infrastructure Automation with Terraform",
+      "domain": "DevOps / Infrastructure as Code",
+      "technologies": ["Terraform", "AWS", "VPC", "EC2", "RDS", "S3", "IAM"],
+      "description": "Modular Terraform configurations for complete production-grade AWS environment: VPC, EC2, RDS PostgreSQL, S3, IAM with least privilege. Remote state in S3 + DynamoDB locking.",
+      "key_outcome": "Full environment provisioned in under 10 minutes | zero manual console work"
+    },
+    {
+      "id": "proj_014",
+      "title": "Monitoring & Alerting Observability Stack",
+      "domain": "DevOps / Observability",
+      "technologies": ["Prometheus", "Grafana", "Docker Compose", "Node Exporter", "Alertmanager"],
+      "description": "Complete observability stack with Prometheus scraping, custom Grafana dashboards (p50/p95/p99 latency, error rates), and Alertmanager threshold-based alerting with runbooks.",
+      "key_outcome": "Real-time multi-service monitoring with automated on-call alerting"
+    }
+  ],
+
+  "skills": {
+    "languages": {
+      "expert": ["Python", "SQL"],
+      "proficient": ["Java", "Bash", "JavaScript", "HTML", "CSS", "C++"]
+    },
+    "ml_ai_frameworks": [
+      "PyTorch", "TensorFlow", "Scikit-learn", "Hugging Face Transformers",
+      "LangChain", "LangGraph", "Keras", "BERT", "YOLO", "OpenCV"
+    ],
+    "generative_ai_llm": [
+      "RAG Pipelines", "Semantic Caching", "Vector Embeddings",
+      "Prompt Engineering", "GPT-4o", "OpenAI API", "Autonomous Agents",
+      "Multi-Agent Orchestration", "LangChain", "LangGraph", "Pinecone"
+    ],
+    "computer_vision": [
+      "Object Detection", "Semantic Segmentation", "Image Classification",
+      "Pose Estimation", "Facial Recognition", "Real-time Inference",
+      "CNN", "U-Net", "ResNet", "VGG", "YOLOv5", "YOLOv8",
+      "Siamese Networks", "Faster R-CNN", "Mask R-CNN", "ViT",
+      "MediaPipe", "OpenCV"
+    ],
+    "data_analytics": [
+      "EDA", "A/B Testing", "Statistical Modeling", "Feature Engineering",
+      "ARIMA", "XGBoost", "SHAP", "K-Means Clustering",
+      "Time Series Analysis", "Hypothesis Testing"
+    ],
+    "data_engineering": [
+      "ETL Pipelines", "Data Lineage", "Automated Validation",
+      "Anomaly Detection", "Data Governance", "PostgreSQL",
+      "Data Quality Frameworks"
+    ],
+    "bi_visualization": [
+      "Power BI", "DAX", "Tableau", "Excel (Pivot, VLOOKUP, Power Query)",
+      "Matplotlib", "Seaborn", "Plotly"
+    ],
+    "devops_cloud": [
+      "Docker", "Kubernetes", "Terraform", "Ansible",
+      "GitHub Actions", "Jenkins", "CI/CD",
+      "AWS EC2", "AWS S3", "AWS SageMaker", "AWS ECR", "AWS RDS", "AWS VPC", "AWS IAM",
+      "GCP", "Infrastructure as Code"
+    ],
+    "mlops": [
+      "MLflow", "Experiment Tracking", "Model Monitoring",
+      "FastAPI", "Flask", "Model Deployment", "Model Serving"
+    ],
+    "databases": [
+      "MySQL", "PostgreSQL", "SQLite", "MongoDB",
+      "Pinecone (Vector DB)", "Redis", "Google BigQuery"
+    ],
+    "annotation_data_tools": [
+      "Roboflow", "Label Studio", "COCO format", "VOC format",
+      "Custom Augmentation Pipelines"
+    ]
+  },
+
+  "certifications": [
+    {
+      "name": "Google ML & NLP Certification",
+      "status": "Completed"
+    },
+    {
+      "name": "Hugging Face Agentic AI",
+      "status": "Completed"
+    },
+    {
+      "name": "Microsoft Data Analytics (Power BI)",
+      "status": "Completed"
+    },
+    {
+      "name": "LeetCode Blind 75 — Data Structures & Algorithms",
+      "status": "Completed"
+    },
+    {
+      "name": "LeetCode Top SQL 50",
+      "status": "Completed"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "status": "In Progress"
+    },
+    {
+      "name": "Certified Kubernetes Application Developer (CKAD)",
+      "status": "Preparing"
+    }
+  ],
+
+  "domain_expertise": [
+    {
+      "domain": "Machine Learning & Data Science",
+      "summary": "Supervised/unsupervised learning, model deployment, experiment tracking, predictive analytics, NLP, and feature engineering. Industry experience at Cognizant as both Data Analyst and Data Scientist.",
+      "years_of_experience": "2+ years industry + 1.5 years academic"
+    },
+    {
+      "domain": "Computer Vision",
+      "summary": "Full CV pipeline from dataset curation (Roboflow, Label Studio) to training (U-Net, YOLO, CNN, Siamese) and deployment (FastAPI, Docker). Projects span segmentation, detection, recognition, and real-time inference.",
+      "years_of_experience": "2+ years (academic + projects)"
+    },
+    {
+      "domain": "Generative AI & LLM Engineering",
+      "summary": "RAG pipeline design, vector embeddings, semantic caching, multi-agent orchestration with LangGraph, and prompt engineering with GPT-4o. Focus on production-grade agentic systems.",
+      "years_of_experience": "1+ year (projects + research)"
+    },
+    {
+      "domain": "Data Analytics & Business Intelligence",
+      "summary": "ETL automation, SQL engineering, Power BI and Tableau dashboard delivery, data governance, and stakeholder reporting. Proven 90% throughput improvement and 70+ hours/month saved.",
+      "years_of_experience": "2+ years industry"
+    },
+    {
+      "domain": "DevOps & Cloud Engineering",
+      "summary": "CI/CD pipelines with GitHub Actions and Jenkins, container orchestration with Docker and Kubernetes, Infrastructure as Code with Terraform, monitoring with Prometheus/Grafana, and AWS cloud provisioning.",
+      "years_of_experience": "1.5+ years (projects + academic)"
+    }
+  ],
+
+  "job_titles_applicable": [
+    "Machine Learning Engineer", "Applied ML Engineer", "AI Engineer",
+    "NLP Engineer", "Deep Learning Engineer", "AI/ML Research Assistant",
+    "Generative AI Engineer", "LLM Engineer", "Prompt Engineer",
+    "RAG Pipeline Engineer", "Conversational AI Engineer",
+    "Computer Vision Engineer", "Vision AI Engineer", "Object Detection Engineer",
+    "Data Scientist", "Applied Data Scientist", "Predictive Analytics Analyst",
+    "Data Analyst", "Business Intelligence Analyst", "Analytics Engineer", "SQL Analyst",
+    "Junior Data Engineer", "ETL Developer", "Data Pipeline Engineer",
+    "Junior DevOps Engineer", "Cloud Engineer", "CI/CD Engineer",
+    "Site Reliability Engineer (Junior)", "Infrastructure Engineer",
+    "Python Developer", "Backend Developer (Python)", "Software Engineer — Data & AI"
+  ],
+
+  "qa_pairs": [
+    {
+      "question": "Does Lavanya know Python?",
+      "answer": "Yes, Python is Lavanya's primary language at expert level. She has used Python across ML pipelines, ETL automation, data analysis, API development with FastAPI and Flask, scripting, and agentic AI systems — across 2+ years of industry and academic work."
+    },
+    {
+      "question": "Has Lavanya worked with RAG pipelines?",
+      "answer": "Yes. Lavanya built a production-grade RAG pipeline using Pinecone as vector DB and LangChain for orchestration. The system includes document chunking, OpenAI embeddings, semantic similarity retrieval, and an innovative semantic caching layer that reduced redundant API calls by ~40%."
+    },
+    {
+      "question": "Does Lavanya have industry experience?",
+      "answer": "Yes. Lavanya has 2+ years of industry experience at Cognizant in Chennai, India — first as a Data Analyst (Feb 2021 – Jan 2022) and then as a Data Scientist (Feb 2022 – Jul 2023). She built and deployed production ML models, ETL pipelines, and BI dashboards."
+    },
+    {
+      "question": "Can Lavanya work with Docker and Kubernetes?",
+      "answer": "Yes. Lavanya has hands-on experience with Docker and Kubernetes. She built a full Kubernetes CI/CD deployment pipeline using GitHub Actions with zero-downtime deployments and automated rollback in under 2 minutes. She also maintained Docker/Kubernetes lab environments for 30+ students."
+    },
+    {
+      "question": "Does Lavanya know computer vision?",
+      "answer": "Yes, Computer Vision is one of Lavanya's deepest domains with 6 distinct projects covering semantic segmentation (U-Net), object detection (YOLOv8), gesture recognition (MediaPipe), facial recognition (Siamese Network), and digit classification (CNN). She also has experience with dataset annotation using Roboflow and Label Studio."
+    },
+    {
+      "question": "What is Lavanya's GPA?",
+      "answer": "Lavanya graduated with a GPA of 3.9/4.0 from her Master of Science in Computer Science at California State University, Dominguez Hills (Dec 2025)."
+    },
+    {
+      "question": "Does Lavanya have cloud experience?",
+      "answer": "Yes. Lavanya has hands-on AWS experience across EC2, S3, RDS, ECR, SageMaker, VPC, and IAM — all provisioned through Terraform IaC. She has also deployed Kubernetes clusters on AWS EKS and has GCP exposure."
+    },
+    {
+      "question": "Has Lavanya used LangChain or LangGraph?",
+      "answer": "Yes. Lavanya has used LangChain in her RAG pipeline project and LangGraph to build a multi-agent autonomous job application system with state-machine workflow management across three specialized agents."
+    }
+  ]
+}

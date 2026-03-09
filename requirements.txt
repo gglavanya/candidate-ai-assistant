@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────
+#  requirements.txt — Lavanya's RAG Project
+# ─────────────────────────────────────────────
+
+# API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# RAG & Embeddings
+chromadb==1.5.2
+sentence-transformers==3.1.1
+
+# LLM
+groq==1.0.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.9.2
