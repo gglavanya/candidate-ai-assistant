@@ -31,7 +31,7 @@ from sentence_transformers import SentenceTransformer
 KNOWLEDGE_BASE_PATH = "knowledge_base.json"   # path to your JSON file
 CHROMA_DB_PATH      = "./chroma_db"           # local folder where ChromaDB stores data
 COLLECTION_NAME     = "lavanya_profile"
-EMBEDDING_MODEL     = "all-MiniLM-L6-v2"     # fast, accurate, free
+EMBEDDING_MODEL     = "paraphrase-MiniLM-L3-v2"     # fast, accurate, free
 
 
 # ─────────────────────────────────────────────

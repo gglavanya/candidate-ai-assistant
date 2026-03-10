@@ -42,7 +42,7 @@ load_dotenv()
 
 CHROMA_DB_PATH  = "./chroma_db"
 COLLECTION_NAME = "lavanya_profile"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "paraphrase-MiniLM-L3-v2"
 GROQ_MODEL      = "llama-3.3-70b-versatile"
 TOP_K           = 4
 
